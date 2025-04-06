@@ -12,7 +12,7 @@ docker-compose up -d
 4. SSMS等 DBツールで接続 デフォルトであれば以下の設定で入れます
    1. サーバー名：localhost,1436
    2. ログイン：sa
-   3. パスワード：local2022!
+   3. パスワード：local2022!  
    ![SSMS_Setting.png](./SSMS_Setting.png)
-5. DBに日本語の文字列をインサートしたら ????? みたいになった場合は照合順序を「Japanese_Unicode_CI_AS」にする
+5. DBに日本語の文字列をインサートしたら ????? みたいになった場合は照合順序を「Japanese_Unicode_CI_AS」にする  
    ![SSMS_文字化け対策](./SSMS_文字化け対策.png)
